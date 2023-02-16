@@ -1,0 +1,712 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" media="all" href="css/style.css" />
+    <link type="image/x-icon" href="./img/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="./img/favicon.ico" rel="icon">
+  </head>
+  <body>
+    <!-- BEGIN content -->
+    <div class="page">
+      <!-- start header -->
+      <header class="header">
+        <div class="container header__container">
+          <div class="logo header__logo">
+            <svg class="icon icon-logo">
+              <use xlink:href="img/sprite.svg#icon-logo"></use>
+            </svg>
+          </div>
+          <div class="header__hamb">
+            <svg class="icon icon-hamb1">
+              <use xlink:href="img/sprite.svg#icon-hamb1"></use>
+            </svg>
+            <svg class="icon icon-hamb2">
+              <use xlink:href="img/sprite.svg#icon-hamb2"></use>
+            </svg>
+            <svg class="icon icon-hamb3">
+              <use xlink:href="img/sprite.svg#icon-hamb3"></use>
+            </svg>
+          </div>
+          <div class="header__wrap">
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a href="/" class="header__nav-link"> Главная </a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="/order.html" class="header__nav-link"> Мебель на заказ </a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="/order.html" class="header__nav-link"> Кухни </a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="/order.html" class="header__nav-link"> Фасады </a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="/portfolio.html" class="header__nav-link"> Наши работы </a>
+                </li>
+                <li class="header__nav-item flex-fe popover-open">
+                  <a href="#" class="header__nav-link"> Клиентам </a>
+                  <span class="chevron-down"></span>
+                  <div class="popover">
+                    <ul class="popover-list">
+                      <li class="popover-list__item">
+                        <a href="/about.html" data-text="О компании">О компании</a>
+                      </li>
+                      <li class="popover-list__item">
+                        <a href="/sales.html" data-text="Акции">Акции</a>
+                      </li>
+                      <li class="popover-list__item">
+                        <a href="/cooperation.html" data-text="Сотрудничество">Сотрудничество</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__nav-item">
+                  <a href="/about.html" class="header__nav-link"> О нас </a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="/contacts.html" class="header__nav-link"> Контакты </a>
+                </li>
+              </ul>
+            </nav>
+            <a href="tel:+79371403815" class="header__phone">+7 937 140 38 15</a>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+      <main class="main">
+        <section class="hero">
+          <div class="hero-slider">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture>
+                    <source srcset="./img/hero-1.webp" />
+                    <img src="./img/hero-1.jpg" alt="Perfectum 1 слайд" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source data-srcset="./img/hero-2.webp" />
+                    <img class="lazy" data-src="./img/hero-2.jpg" alt="Perfectum 2 слайд" />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source data-srcset="./img/hero-3.webp" />
+                    <img class="lazy" data-src="./img/hero-3.jpg" alt="Perfectum 3 слайд" />
+                  </picture>
+                </div>
+              </div>
+              <div class="swiper-actions">
+                <div class="swiper-navigation">
+                  <button class="swiper-button-prev">
+                    <svg class="icon icon-arrow-left">
+                      <use xlink:href="img/sprite.svg#icon-arrow-left"></use>
+                    </svg>
+                  </button>
+                  <div class="swiper-navigation-divider">
+                    <svg class="icon icon-divider">
+                      <use xlink:href="img/sprite.svg#icon-divider"></use>
+                    </svg>
+                  </div>
+                  <button class="swiper-button-next">
+                    <svg class="icon icon-arrow-right">
+                      <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="swiper-pagination">
+                  <div class="swiper-pagination-current"> 01 </div>
+                  <div class="swiper-pagination-divider"> / </div>
+                  <div class="swiper-pagination-all"> 03 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container hero__container">
+            <div class="hero__block">
+              <div class="hero__block-head">
+                <h1 class="hero__block-title"> PERFECTUM. <div class="hero__block-title hero__block-title--blured"> PERFECTUM. </div>
+                </h1>
+                <div class="hero__block-subtitle"> Изготовление мебели профессионалами </div>
+                <a href="/order" class="ui-btn ui-btn--yellow"> Заказать мебель </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section category">
+          <div class="container">
+            <h2 class="section__title"> Категории наших кухонь </h2>
+            <div class="section__subtitle"> Каждая кухня уникальна, так как мы создаем<br /> проект с учетом индивидуальных замеров и<br /> пожеланий заказчика </div>
+            <div class="category__tabs tabs">
+              <div class="select category__tabs-select">
+                <div class="select-choose category__tabs-select-choose">
+                  <span class="text">Выберите категорию </span>
+                  <svg class="icon icon-chevron-right">
+                    <use xlink:href="img/sprite.svg#icon-chevron-right"></use>
+                  </svg>
+                </div>
+                <ul class="category__tabs-list tabs-list select-list">
+                  <li class="category__tabs-item tabs-item tabs-item-active">
+                    <a href="#" class="category__tabs-link tabs-item-link" data-tabs-open="classic"> Классика </a>
+                  </li>
+                  <li class="category__tabs-item tabs-item">
+                    <a href="#" class="category__tabs-link tabs-item-link" data-tabs-open="neoclassic"> Неоклассика </a>
+                  </li>
+                  <li class="category__tabs-item tabs-item">
+                    <a href="#" class="category__tabs-link tabs-item-link" data-tabs-open="modern"> Модерн </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="category__tabs-wrap tabs-wrap">
+                <div class="category__tabs-content tabs-content tabs-content-active" data-tabs="classic">
+                  <button class="swiper-button-prev">
+                    <span class="mob-text"> Предыдущая </span>
+                    <svg class="icon icon-chevron-left">
+                      <use xlink:href="img/sprite.svg#icon-chevron-left"></use>
+                    </svg>
+                  </button>
+                  <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                          <picture>
+                            <source data-srcset="./img/classic-1.webp" />
+                            <img class="lazy" data-src="./img/classic-1.jpg" alt="Фотография категории Классика номер 1" />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                          <picture>
+                            <source data-srcset="./img/classic-2.webp" />
+                            <img class="lazy" data-src="./img/classic-2.jpg" alt="Фотография категории Классика номер 2" />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                          <picture>
+                            <source data-srcset="./img/classic-3.webp" />
+                            <img class="lazy" data-src="./img/classic-3.jpg" alt="Фотография категории Классика номер 3" />
+                          </picture>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="swiper-button-next">
+                    <svg class="icon icon-chevron-right">
+                      <use xlink:href="img/sprite.svg#icon-chevron-right"></use>
+                    </svg>
+                    <span class="mob-text"> Следующая </span>
+                  </button>
+                  <div class="swiper-info">
+                    <div class="swiper-pagination-current"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination-all"></div>
+                  </div>
+                </div>
+                <div class="category__tabs-content tabs-content" data-tabs="neoclassic">
+                  <button class="swiper-button-prev">
+                    <span class="mob-text"> Предыдущая </span>
+                    <svg class="icon icon-chevron-left">
+                      <use xlink:href="img/sprite.svg#icon-chevron-left"></use>
+                    </svg>
+                  </button>
+                  <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                          <picture>
+                            <source data-srcset="./img/neoclassic-1.webp" />
+                            <img class="lazy" data-src="./img/neoclassic-1.jpg" alt="Фотография категории Неоклассика номер 1" />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                          <picture>
+                            <source data-srcset="./img/neoclassic-2.webp" />
+                            <img class="lazy" data-src="./img/neoclassic-2.jpg" alt="Фотография категории Неоклассика номер 2" />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                          <picture>
+                            <source data-srcset="./img/neoclassic-3.webp" />
+                            <img class="lazy" data-src="./img/neoclassic-3.jpg" alt="Фотография категории Неоклассика номер 3" />
+                          </picture>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="swiper-button-next">
+                    <svg class="icon icon-chevron-right">
+                      <use xlink:href="img/sprite.svg#icon-chevron-right"></use>
+                    </svg>
+                    <span class="mob-text"> Следующая </span>
+                  </button>
+                  <div class="swiper-info">
+                    <div class="swiper-pagination-current"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination-all"></div>
+                  </div>
+                </div>
+                <div class="category__tabs-content tabs-content" data-tabs="modern">
+                  <button class="swiper-button-prev">
+                    <span class="mob-text"> Предыдущая </span>
+                    <svg class="icon icon-chevron-left">
+                      <use xlink:href="img/sprite.svg#icon-chevron-left"></use>
+                    </svg>
+                  </button>
+                  <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                          <picture>
+                            <source data-srcset="./img/modern-1.webp" />
+                            <img class="lazy" data-src="./img/modern-1.jpg" alt="Фотография категории Модерн номер 1" />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                          <picture>
+                            <source data-srcset="./img/modern-2.webp" />
+                            <img class="lazy" data-src="./img/modern-2.jpg" alt="Фотография категории Модерн номер 2" />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                          <picture>
+                            <source data-srcset="./img/modern-3.webp" />
+                            <img class="lazy" data-src="./img/modern-3.jpg" alt="Фотография категории Модерн номер 3" />
+                          </picture>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="swiper-button-next">
+                    <svg class="icon icon-chevron-right">
+                      <use xlink:href="img/sprite.svg#icon-chevron-right"></use>
+                    </svg>
+                    <span class="mob-text"> Следующая </span>
+                  </button>
+                  <div class="swiper-info">
+                    <div class="swiper-pagination-current"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination-all"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section why">
+          <div class="container">
+            <div class="why-wrap">
+              <div class="why-col">
+                <h2 class="section__title"> Почему вы<br /> закажете у нас </h2>
+                <div class="why-grid">
+                  <div class="why-item">
+                    <div class="why-item__title">Комфорт и удобсвто</div>
+                    <div class="why-item__text">Наша мебель отвечает всем анатомическим особенностям</div>
+                  </div>
+                  <div class="why-item">
+                    <div class="why-item__title">Стиль и дизайн</div>
+                    <div class="why-item__text">Разнообразный модельный ряд ориентированный на любой вкус</div>
+                  </div>
+                  <div class="why-item">
+                    <div class="why-item__title">Высокое качество</div>
+                    <div class="why-item__text">Качество мебели подтверждается официальными сертификатами</div>
+                  </div>
+                  <div class="why-item">
+                    <div class="why-item__title">Гарантия</div>
+                    <div class="why-item__text">На всю мебель мы даем гарантию минимум на 18 месяцев</div>
+                  </div>
+                </div>
+              </div>
+              <div class="why-img">
+                <picture>
+                  <source data-srcset="./img/why.webp" />
+                  <img data-src="./img/why.jpg" alt="" class="lazy" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section types">
+          <div class="container types__container">
+            <a href="#" class="types-item">
+              <picture>
+                <source data-srcset="./img/type-1.webp" />
+                <img class="lazy" data-src="./img/type-1.jpg" alt="" />
+              </picture>
+              <span class="types-item__name"> Кухни </span>
+            </a>
+            <a href="#" class="types-item">
+              <picture>
+                <source data-srcset="./img/type-2.webp" />
+                <img class="lazy" data-src="./img/type-2.jpg" alt="" />
+              </picture>
+              <span class="types-item__name"> Мебель </span>
+            </a>
+          </div>
+        </section>
+        <section class="section section-about">
+          <div class="container">
+            <h2 class="section__title"> О нас </h2>
+            <div class="section-about__wrap">
+              <div class="section-about__col">
+                <h3 class="section-about__title"> На рынке с 20** года </h3>
+                <div class="section-about__text"> Мы верим в связанные места, которые объединяют наши миры посредством дизайна и делают наши переходы от одного места до другого бесшовными, интересными и приятными. </div>
+                <div class="section-about__text"> Наша компания всегда следует курсу развития.<br /> Именно поэтому мы открыли свою собственную студию<br /> дизайна, в которой работают настоящие мастера своего дела. </div>
+                <div class="section-about__grid">
+                  <div class="section-about__item">
+                    <div class="section-about__item-num">01</div>
+                    <div class="section-about__item-text"> Срок изготовления, в среднем,&nbsp;занимает 15 дней с момента согласования <br />проекта </div>
+                  </div>
+                  <div class="section-about__item">
+                    <div class="section-about__item-num">02</div>
+                    <div class="section-about__item-text"> Наши дизайнеры имеют огромный опыт проектирования мебели и специализированное образование </div>
+                  </div>
+                  <div class="section-about__item">
+                    <div class="section-about__item-num">03</div>
+                    <div class="section-about__item-text"> Мебель изготавливается на собственной фабрике на самых современных высокоточных станках. </div>
+                  </div>
+                  <div class="section-about__item">
+                    <div class="section-about__item-num">04</div>
+                    <div class="section-about__item-text"> Более 1000+ семей уже исполнили свою мечту </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-about__img">
+                <picture>
+                  <source data-srcset="./img/section-about.webp" />
+                  <img class="lazy" data-src="./img/section-about.jpg" alt="" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section-video">
+          <div class="container">
+            <div class="section-video__wrap">
+              <div class="section-video__col">
+                <h2 class="section__title"> Видео с<br /> производства </h2>
+                <div class="section-video__text"> Производственная компания полного цикла. Мы&nbsp;создаём мебель с нуля, начиная от&nbsp;разработки чертежей и&nbsp;заканчивая монтажными работами на&nbsp;объекте заказчика. Мы&nbsp;можем изготавливать нестандартные фасады без удорожания, применять уникальные виды фрезеровки по&nbsp;фирменной технологии </div>
+                <a href="#" class="ui-btn ui-btn--transparent"> Посмотреть мебель </a>
+              </div>
+              <div class="section-video__video">
+                <div class="video">
+                  <div class="video-player">
+                  </div>
+                  <div class="video-btn">
+                    <svg class="icon icon-play">
+                      <use xlink:href="img/sprite.svg#icon-play"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section-price">
+          <div class="container">
+            <div class="section-price__item">
+              <div class="section-price__col">
+                <h2 class="section__title"> Хотите узнать стоимость<br /> будущей кухни? </h2>
+                <div class="section__subtitle"> Оставьте заявку и мы Вам перезвоним! </div>
+              </div>
+              <div class="ui-btn ui-btn--black" data-modal-open="callback"> Оставить заявку </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section-steps">
+          <div class="container">
+            <h2 class="section__title"> Этапы работы </h2>
+            <div class="section-steps__grid">
+              <div class="section-steps__row">
+                <div class="section-steps__item">
+                  <div class="section-steps__item-num">01</div>
+                  <div class="section-steps__item-content">
+                    <div class="section-steps__item-title">Переговоры</div>
+                    <div class="section-steps__item-text"> Вы оставляете заявку на сайте или по<br />телефону, мы с вами обсуждаем вашу<br />будущую кухню. </div>
+                  </div>
+                </div>
+                <div class="section-steps__item">
+                  <div class="section-steps__item-num">02</div>
+                  <div class="section-steps__item-content">
+                    <div class="section-steps__item-title">Выезд замерщика</div>
+                    <div class="section-steps__item-text"> Выезд замерщика и дизайнера с образцами материалов,<br /> подготовим бесплатный 3D дизайн проект, при необходимости<br /> дадим советы по ремонту помещения, расположению розеток,<br /> поможем с подбором бытовой техники. При желании, можно<br />заключить договор на месте. </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-steps__row section-steps__row--second">
+                <div class="section-steps__item">
+                  <div class="section-steps__item-num">03</div>
+                  <div class="section-steps__item-content">
+                    <div class="section-steps__item-title">Производство</div>
+                    <div class="section-steps__item-text"> Конструктор начинает создание детализированного проекта<br /> вашей кухни в профессиональном программном<br /> обеспечении, далее файл отправляется на производство и<br /> загружается в высокоточные станки с ЧПУ. </div>
+                  </div>
+                </div>
+                <div class="section-steps__item">
+                  <div class="section-steps__item-num">04</div>
+                  <div class="section-steps__item-content">
+                    <div class="section-steps__item-title">Установка</div>
+                    <div class="section-steps__item-text"> Проверяем, качественно упаковываем и<br /> бережно доставляем вашу мебель, и<br /> переходим к сборке. Вы принимаете работу, и<br />наслаждаетесь новой кухней. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section-portfolio">
+          <div class="container">
+            <h2 class="section__title"> Реализованные<br /> проекты </h2>
+            <div class="category__tabs-content">
+              <button class="swiper-button-prev">
+                <span class="mob-text"> Предыдущая </span>
+                <svg class="icon icon-chevron-left">
+                  <use xlink:href="img/sprite.svg#icon-chevron-left"></use>
+                </svg>
+              </button>
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-img">
+                      <picture>
+                        <source data-srcset="./img/portfolio-1.webp" />
+                        <img class="lazy" data-src="./img/portfolio-1.jpg" alt="Фотография портфолио Perfectum. номер 1" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-img">
+                      <picture>
+                        <source data-srcset="./img/portfolio-2.webp" />
+                        <img class="lazy" data-src="./img/portfolio-2.jpg" alt="Фотография портфолио Perfectum. номер 2" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-img">
+                      <picture>
+                        <source data-srcset="./img/portfolio-3.webp" />
+                        <img class="lazy" data-src="./img/portfolio-3.jpg" alt="Фотография портфолио Perfectum. номер 3" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-img">
+                      <picture>
+                        <source data-srcset="./img/portfolio-4.webp" />
+                        <img class="lazy" data-src="./img/portfolio-4.jpg" alt="Фотография портфолио Perfectum. номер 4" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-img">
+                      <picture>
+                        <source data-srcset="./img/portfolio-5.webp" />
+                        <img class="lazy" data-src="./img/portfolio-5.jpg" alt="Фотография портфолио Perfectum. номер 5" />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="swiper-button-next">
+                <svg class="icon icon-chevron-right">
+                  <use xlink:href="img/sprite.svg#icon-chevron-right"></use>
+                </svg>
+                <span class="mob-text"> Следующая </span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="section section-contacts">
+          <div class="container">
+            <h2 class="section__title"> Контактные данные </h2>
+          </div>
+          <div class="container section-contacts__container">
+            <div class="map">
+              <script src="https://api-maps.yandex.ru/2.1/?apikey=f8d1318f-e2d1-48cd-b79a-2f0bfe1543f6&lang=ru_RU" type="text/javascript">
+              </script>
+              <script>
+                const init = () =>
+                {
+                  const map = new ymaps.Map("map",
+                  {
+                    center: [51.62104909, 45.96929318],
+                    zoom: 16
+                  });
+                  map.geoObjects.add(new ymaps.Placemark([51.62112923, 45.97240454],
+                  {},
+                  {
+                    preset: 'islands#icon',
+                    iconColor: '#0095b6'
+                  }))
+                  map.behaviors.disable('scrollZoom');
+                }
+                ymaps.ready(init);
+
+              </script>
+              <div class="map-content" id="map"></div>
+              <div class="map-block">
+                <div class="map-block__row">
+                  <div class="map-block__title"> Адрес </div>
+                  <div class="map-block__content"> Саратов, Россия </div>
+                  <div class="map-block__subcontent"> Вольский тракт 2А </div>
+                </div>
+                <div class="map-block__row">
+                  <div class="map-block__title"> Телефон </div>
+                  <div class="map-block__content">
+                    <a href="tel:+79371403815"> + 7 937 140 38 15 </a>
+                  </div>
+                </div>
+                <div class="map-block__row">
+                  <div class="map-block__title"> Электронная почта </div>
+                  <div class="map-block__content">
+                    <a href="mailto:fabrika-perfectum@yandex.ru"> fabrika-perfectum@yandex.ru </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- start footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-col">
+              <ul>
+                <li>
+                  <a href="#">ГЛАВНАЯ</a>
+                </li>
+                <li>
+                  <a href="#">МЕБЕЛЬ НА ЗАКАЗ</a>
+                </li>
+                <li>
+                  <a href="#">КУХНИ</a>
+                </li>
+                <li>
+                  <a href="#">ФАСАДЫ</a>
+                </li>
+                <li>
+                  <a href="#">НАШИ РАБОТЫ</a>
+                </li>
+                <li>
+                  <a href="#">О НАС</a>
+                </li>
+                <li>
+                  <a href="#">КОНТАКТЫ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <ul>
+                <li>
+                  <a href="#">КУХНЯ</a>
+                </li>
+                <li>
+                  <a href="#">МЕБЕЛЬ ДЛЯ ВАННОЙ</a>
+                </li>
+                <li>
+                  <a href="#">ФАСАДЫ</a>
+                </li>
+                <li>
+                  <a href="#">ШКАФЫ</a>
+                </li>
+                <li>
+                  <a href="#">СТЕНОВЫЕ ПАНЕЛИ</a>
+                </li>
+                <li>
+                  <a href="#">МЕЖКОМНАТНЫЕ ДВЕРИ</a>
+                </li>
+                <li>
+                  <a href="#">ТУМБЫ И КОНСОЛИ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <ul>
+                <li>
+                  <a href="#">ГАРДЕРОБНАЯ</a>
+                </li>
+                <li>
+                  <a href="#">ПРИХОЖАЯ</a>
+                </li>
+                <li>
+                  <a href="#">СТОЛЫ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="logo footer__logo">
+              <svg class="icon icon-logo">
+                <use xlink:href="img/sprite.svg#icon-logo"></use>
+              </svg>
+            </div>
+            <div class="copyright"> Все права защищены </div>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+    </div>
+    <div class="modal modal--callback" data-modal="callback">
+      <div class="modal__inner" data-modal-inner="callback">
+        <div class="modal__close modal-close" data-modal-close="callback"></div>
+        <section class="form-callback">
+          <div class="container">
+            <div class="form-callback__img">
+              <picture>
+                <source data-srcset="./img/form-img.webp" />
+                <img class="lazy" data-src="./img/form-img.jpg" alt="" />
+              </picture>
+            </div>
+            <div class="form-callback__content">
+              <h2 class="section__title"> Оставьте заявку </h2>
+              <div class="section__subtitle"> И мы перезвоним Вам обратно. </div>
+              <form class="form">
+                <label for="" class="form-label">
+                  <input type="text" class="form-input" placeholder="Имя" />
+                </label>
+                <label for="" class="form-label">
+                  <input type="tel" class="form-input" placeholder="Номер телефона" />
+                </label>
+                <button class="ui-btn ui-btn--transparent" disabled> Отправить <svg class="icon icon-arrow-right">
+                    <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </button>
+                <label class="form-checkbox">
+                  <input type="checkbox" name="policy" id="policy" />
+                  <span class="checkbox">
+                    <svg class="icon icon-check">
+                      <use xlink:href="img/sprite.svg#icon-check"></use>
+                    </svg>
+                  </span>
+                  <span class="checkbox-text"> Заполнив эту форму, вы даете согласие на обработку<br />персональных данных в соответствии с законом </span>
+                </label>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- END content -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="js/helper-menu.js"></script>
+  </body>
+</html>
